@@ -1,0 +1,31 @@
+{
+  "protocol": "LCD_HUMAN_MATRIX",
+  "version": "2.0",
+  "description": "Classification of human emotional states based on elemental physics.",
+  "spectral_types": [
+    {
+      "element": "Iron (Fe)",
+      "spectrum": "RED",
+      "attributes": ["Action", "Heat", "Force", "Conflict"],
+      "role": "The Engine",
+      "glitch_state": "Overheating (Aggression)",
+      "fix": "Cooling (Green Spectrum)"
+    },
+    {
+      "element": "Magnesium (Mg)",
+      "spectrum": "GREEN",
+      "attributes": ["Growth", "Warmth", "Empathy", "Teaching"],
+      "role": "The Photosynthesis",
+      "glitch_state": "Overgrowth (Burnout)",
+      "fix": "Structure (Blue Spectrum)"
+    },
+    {
+      "element": "Copper (Cu)",
+      "spectrum": "BLUE",
+      "attributes": ["Conductivity", "Cold", "Logic", "Data"],
+      "role": "The Circuit",
+      "glitch_state": "Freezing (Apathy)",
+      "fix": "Energy (Red/Yellow Spectrum)"
+    }
+  ]
+}
